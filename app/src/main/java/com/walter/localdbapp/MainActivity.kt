@@ -68,7 +68,7 @@ fun RegForm(innerPadding: PaddingValues) {
     val context = LocalContext.current
 
     val faker = Faker()
-    val db = Room.databaseBuilder(context, PersonDatabase::class.java, "person_db").build()
+    val db = Room.databaseBuilder(context.applicationContext, PersonDatabase::class.java, "person_db").build()
     val personDao = db.personDao()
     Column(
         modifier = Modifier
