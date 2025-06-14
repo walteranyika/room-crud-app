@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LocalDbApp</string>
+    <string name="title_activity_people">PeopleActivity</string>
+</resources>
